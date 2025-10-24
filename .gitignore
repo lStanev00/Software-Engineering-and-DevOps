@@ -1,3 +1,3 @@
-.doc
-.docx
-.env
+*.doc
+*.docx
+*.env
