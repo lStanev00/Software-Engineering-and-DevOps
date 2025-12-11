@@ -1,0 +1,2 @@
+This repository contains only the Docker-related files created by me (Dockerfile, docker-compose configuration, and container setup).
+All application source code, assets, and project files included in this directory belong to their respective original authors and are not my work. They are used solely for educational and demonstration purposes.

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JadeStorm\\Documents\\JavaScript\\Learning\\Software Engineering and DevOps\\apps\\01-03-05.TaskBoard-ASP.NET-App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|c:\\users\\jadestorm\\documents\\javascript\\learning\\software engineering and devops\\apps\\01-03-05.taskboard-asp.net-app\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|c:\\users\\jadestorm\\documents\\javascript\\learning\\software engineering and devops\\apps\\01-03-05.taskboard-asp.net-app\\taskboard.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CC759849-6C9C-4CF7-94B0-40C679137CCC}|TaskBoard.WebApp\\TaskBoard.WebApp.csproj|solutionrelative:taskboard.webapp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\JadeStorm\\Documents\\JavaScript\\Learning\\Software Engineering and DevOps\\apps\\01-03-05.TaskBoard-ASP.NET-App\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\JadeStorm\\Documents\\JavaScript\\Learning\\Software Engineering and DevOps\\apps\\01-03-05.TaskBoard-ASP.NET-App\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T13:49:09.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\JadeStorm\\Documents\\JavaScript\\Learning\\Software Engineering and DevOps\\apps\\01-03-05.TaskBoard-ASP.NET-App\\TaskBoard.WebApp\\Dockerfile",
+              "RelativeDocumentMoniker": "TaskBoard.WebApp\\Dockerfile",
+              "ToolTip": "C:\\Users\\JadeStorm\\Documents\\JavaScript\\Learning\\Software Engineering and DevOps\\apps\\01-03-05.TaskBoard-ASP.NET-App\\TaskBoard.WebApp\\Dockerfile",
+              "RelativeToolTip": "TaskBoard.WebApp\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T13:24:24.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
