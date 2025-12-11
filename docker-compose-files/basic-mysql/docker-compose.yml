@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress-website
+    ports:
+      - "80:80"
+    environment:
+      WORDPRESS_DB_HOST: wordpress_db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpressdb
+    volumes:
+      - ./wp-data:/var/www/html
+    networks:
+      - wpnet
+    depends_on:
+      - wordpress_db
+
+  wordpress_db:
+    image: mysql:8.0
+    container_name: wordpress_db
+    environment:
+      MYSQL_ROOT_PASSWORD: wordpress
+      MYSQL_DATABASE: wordpressdb
+      MYSQL_USER: wordpress
+      MYSQL_PASSWORD: wordpress
+    volumes:
+      - ./db-data:/var/lib/mysql
+    networks:
+      - wpnet
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: wordpress_phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: wordpress_db
+      PMA_USER: wordpress
+      PMA_PASSWORD: wordpress
+    networks:
+      - wpnet
+
+networks:
+  wpnet:
+    driver: bridge
